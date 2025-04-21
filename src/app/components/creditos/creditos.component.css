@@ -1,0 +1,73 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 
+        2px 2px 0px white, 
+        -2px -2px 0px white, 
+        2px -2px 0px white, 
+        -2px 2px 0px white;
+        background: #000000;
+        --gap: 5em;
+        --line: 1px;
+        --color: rgba(255, 255, 255, 0.2);
+
+    background-image: linear-gradient(
+      -90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    );
+    background-size: var(--gap) var(--gap);
+    font-family: 'PixelFont';
+
+    & h1 {
+        font-size: 4rem;
+        margin-bottom: 50px;
+        animation: alternarCores 1s infinite;
+    }
+
+    & p {
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+
+    & ul {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    & .close {
+        font-size: 2.5rem;
+        transition: all .3s ease-out;
+    }
+
+    & .close:hover {
+        cursor: pointer;
+        animation: alternarCores 1s infinite;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes alternarCores {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: red; }
+}
