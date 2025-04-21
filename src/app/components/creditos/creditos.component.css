@@ -8,11 +8,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    text-shadow: 
-        2px 2px 0px white, 
-        -2px -2px 0px white, 
-        2px -2px 0px white, 
-        -2px 2px 0px white;
+    color: white;
         background: #000000;
         --gap: 5em;
         --line: 1px;
@@ -31,7 +27,6 @@
       var(--color) var(--gap)
     );
     background-size: var(--gap) var(--gap);
-    font-family: 'PixelFont';
 
     & h1 {
         font-size: 4rem;
@@ -40,10 +35,15 @@
     }
 
     & p {
-        width: 400px;
+        width: 800px;
         text-align: center;
         margin-bottom: 20px;
-        font-size: 1.5rem;
+        font-size: 2rem;
+
+        & a {
+            color: white;
+            font-weight: bold;
+        }
     }
 
     & ul {
@@ -70,4 +70,8 @@
     50% { color: green; }
     75% { color: yellow; }
     100% { color: red; }
+}
+
+span, h1 {
+    font-family: PixelFont;
 }
