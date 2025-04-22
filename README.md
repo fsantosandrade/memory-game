@@ -1,27 +1,99 @@
-# GenioDasCores
+# Projeto: Memory Game 🧠
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+Este repositório foi criado para a apresentação de um projeto acadêmico de um jogo de memorização simples. Utilizando a linguagem TypeScript e a estrutura Angular para o front-end, o projeto explora a criação de um jogo dinâmico e interativo, onde a sua memória e raciocínio são os principais componentes.
 
-## Development server
+## 🔨 Funcionalidades do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Como Jogar**: Regras e mecânicas baseadas no jogo de memória Color Genius.
+- **Conceitos de Autômatos e Sequênciação**: Avaliação e otimização de algoritmos.
+- **Exemplos práticos de código**: Implementações de componentes e lógica do jogo.
+- **Interface moderna e interativa**: Com HTML, CSS e componentes estilizados no Angular, destacando o uso de diretivas, binding e eventos de clique.
 
-## Code scaffolding
+## 🚀 Sobre o Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O projeto explora a criação de um jogo de memória baseado no conhecido Color Genius (jogo infantil físico), que se resume em decorar uma sequência aleatória de cores que aumentam cada vez mais, visando conseguir um récorde cada vez maior, sobrevivendo com suas 3 únicas vidas.
 
-## Build
+## 📂 Projetos e Componentes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Este repositório contém os seguintes arquivos e exemplos:
 
-## Running unit tests
+- **game-page.component.ts**: Componente principal que lida com a lógica do jogo em si, apresentação visual e controle de vidas do jogador.
+- **menu.component.ts**: Componente que lida com toda a estruturação do menu do jogo bem como seu início.
+- **result.component.ts**: Componente que lida com o resultado final do jogo.
+- **credits.component.ts**: Componente utilizado pelo menu que disponibiliza os créditos do jogo.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Acesse o repositório completo no GitHub!: [Memory Game](https://github.com/fsantosandrade/memory-game)
 
-## Running end-to-end tests
+## 🛠 Pré-Requisitos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Navegador da Web**: Tenha um navegador atualizado, como Google Chrome ou Mozilla Firefox.
+- **Node.js e npm**: Para rodar o ambiente Angular, é necessário ter o Node.js e o npm instalados.
+- **Angular CLI**: Instale o Angular CLI para rodar e compilar o projeto.
 
-## Further help
+## 🔎 Como Acessar
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Acesse o link do site disponibilizado a partir do GitHub Pages aqui: [https://fsantosandrade.github.io/memory-game/](https://fsantosandrade.github.io/memory-game/)
+- Acesse o link do relatório explicativo aqui: []()
+
+## 🛣️ Como Executar o Projeto
+
+Clone este repositório:
+
+```bash
+git clone https://github.com/fsantosandrade/memory-game.git
+```
+
+Instale as dependências do projeto:
+
+```bash
+npm install
+```
+
+Execute o projeto em modo de desenvolvimento:
+
+```bash
+ng serve
+```
+
+Abra o navegador e acesse http://localhost:4200 para visualizar a aplicação.
+
+## 📚 Bibliotecas e Tecnologias Utilizadas
+
+- **Angular**: Estrutura principal para desenvolvimento do front-end.
+- **Typescript**: Linguagem principal para manipulação de eventos e lógica.
+- **Html/CSS**: Estrutura e estilos da interface.
+- **Javascript**: Manipulação adicional de eventos e lógica.
+
+## 📖 Contribuição
+
+Faça um fork do projeto.
+
+Crie uma nova branch com as suas alterações:
+
+```bash
+git checkout -b my-feature
+```
+
+Commit suas alterações:
+
+```bash
+git commit -m "feat: Minha nova feature"
+```
+
+Envie suas alterações:
+
+```bash
+git push origin my-feature
+```
+
+Crie um Pull Request no repositório original.
+
+## 👨‍💻 Autores
+
+- **Felipe Santos** - RGM: 31386334
+- **Ícaro Fernandes Barbosa Lima Maia** - RGM: 31335519
+- **Addan Sousa Reis** - RGM: 31385252
+- **Vinicius de Almeida** - RGM: 29346487
+- **Carlos Eduardo** - RGM:
+
+### Agradecemos pelo interesse no Memory Game! 🎉
