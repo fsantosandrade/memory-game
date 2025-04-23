@@ -33,7 +33,6 @@ Acesse o repositório completo no GitHub!: [Memory Game](https://github.com/fsan
 ## 🔎 Como Acessar
 
 - Acesse o link do site disponibilizado a partir do GitHub Pages aqui: [https://fsantosandrade.github.io/memory-game/](https://fsantosandrade.github.io/memory-game/)
-- Acesse o link do relatório explicativo aqui: []()
 
 ## 🛣️ Como Executar o Projeto
 
@@ -90,10 +89,10 @@ Crie um Pull Request no repositório original.
 
 ## 👨‍💻 Autores
 
-- **Felipe Santos** - RGM: 31386334
+- **Felipe Santos de Andrade Dias** - RGM: 31386334
 - **Ícaro Fernandes Barbosa Lima Maia** - RGM: 31335519
 - **Addan Sousa Reis** - RGM: 31385252
 - **Vinicius de Almeida** - RGM: 29346487
-- **Carlos Eduardo** - RGM:
+- **Carlos Eduardo Carneiro da Costa** - RGM: 42250366
 
 ### Agradecemos pelo interesse no Memory Game! 🎉
